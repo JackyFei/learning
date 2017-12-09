@@ -1,3 +1,4 @@
 # Jacky Fei's Learning Repository
-## test 1
-### test 2
+* algorithms
+* machine_learning
+	* deep_learning
