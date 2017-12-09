@@ -1,18 +1,33 @@
 # UnionFindLibrary
-## QuickFind
-## QuickUnion
-## QuickUnionPathHalving
-## QuickUnionWeighted
-## QuickUnionWeightedPathHalving
-## QuickUnionWeightedPathCompression
+- QuickFind
+- QuickUnion
+- QuickUnionPathHalving
+- QuickUnionWeighted
+- QuickUnionWeightedPathHalving
+- QuickUnionWeightedPathCompression
 
 # FundamentalLibrary
-## Bags
-### LinkedBag
-### ResizingArrayBag
-## Queues
-### LinkedQueue
-### ResizingArrayQueue
-## Stacks
-### LinkedStack
-### ResizingArrayStack
+- Bags
+    - LinkedBag
+    - ResizingArrayBag
+- Queues
+    - LinkedQueue
+    - ResizingArrayQueue
+- Stacks
+    - LinkedStack
+    - ResizingArrayStack
+
+# SortingLibrary
+- InsertionSort
+- SelectionSort
+- ShellSort
+- MergeSort
+- MergeXSort
+- QuickSort
+- Quick3WaySort
+- QuickSortX
+- HeapSort
+- PriorityQueue
+    - OrderedArrayPriorityQueue
+    - UnorderedArrayPriortyQueue
+    - BinaryHeapPriorityQueue
