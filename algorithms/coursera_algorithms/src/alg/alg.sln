@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnionFindLibrary", "UnionFindLibrary\UnionFindLibrary.csproj", "{18EC73AF-14CA-424C-84DC-7152FA53ECD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnionFindLibrary", "UnionFindLibrary\UnionFindLibrary.csproj", "{18EC73AF-14CA-424C-84DC-7152FA53ECD1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C6799E4E-2F4D-4445-83D3-8DD747F76426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.UnionFind", "Test.UnionFind\Test.UnionFind.csproj", "{988436D9-0CB9-4B8A-96FB-9E06358A9015}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.UnionFind", "Test.UnionFind\Test.UnionFind.csproj", "{988436D9-0CB9-4B8A-96FB-9E06358A9015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentalLibrary", "FundamentalLibrary\FundamentalLibrary.csproj", "{3EC84918-CD64-4110-B067-DF6F1A9678A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundamentalLibrary", "FundamentalLibrary\FundamentalLibrary.csproj", "{3EC84918-CD64-4110-B067-DF6F1A9678A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Fundamental", "Test.Fundamental\Test.Fundamental.csproj", "{DC383583-07D7-4F28-94DA-56D5EEE88488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Fundamental", "Test.Fundamental\Test.Fundamental.csproj", "{DC383583-07D7-4F28-94DA-56D5EEE88488}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingLibrary", "SortingLibrary\SortingLibrary.csproj", "{BC8CE214-E6A3-4F12-A376-46A036FC1971}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingLibrary", "SortingLibrary\SortingLibrary.csproj", "{BC8CE214-E6A3-4F12-A376-46A036FC1971}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Sorting", "Test.Sorting\Test.Sorting.csproj", "{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Sorting", "Test.Sorting\Test.Sorting.csproj", "{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingLibrary", "SearchingLibrary\SearchingLibrary.csproj", "{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +49,10 @@ Global
 		{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
