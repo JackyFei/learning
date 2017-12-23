@@ -11,15 +11,17 @@ namespace SearchingLibrary
     public interface ISymbolTable<TKey, TValue> where TKey : IComparable<TKey>
     {
         void Put(TKey key, TValue value);
-        TValue Get(TKey key);
+        bool TryGet(TKey key, out TValue value);
         void Delete(TKey key);
         bool Contains(TKey key);
         bool IsEmpty { get; }
         int Size { get; }
         IEnumerable<TKey> Keys { get; }
-        TKey Min();
-        TKey Max();
-        TKey Floor(TKey key);
-        TKey Ceiling(TKey key);
+        bool TryGetMin(out TKey key);
+        bool TryGetMax(out TKey key);
+        bool TryGetFloor(TKey key, out TKey keyResult);
+        bool TryGetCeiling(TKey key, out TKey keyResult);
+        void DeleteMin();
+        void DeleteMax();
     }
 }

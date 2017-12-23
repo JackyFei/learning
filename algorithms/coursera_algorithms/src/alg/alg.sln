@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnionFindLibrary", "UnionFindLibrary\UnionFindLibrary.csproj", "{18EC73AF-14CA-424C-84DC-7152FA53ECD1}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingLibrary", "SortingLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Sorting", "Test.Sorting\Test.Sorting.csproj", "{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingLibrary", "SearchingLibrary\SearchingLibrary.csproj", "{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchingLibrary", "SearchingLibrary\SearchingLibrary.csproj", "{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Searching", "Test.Searching\Test.Searching.csproj", "{4FF66D90-50C5-4B5C-AFF9-A07601E93ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EAE7D22-C15D-4AA9-B5F9-712C0A605B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF66D90-50C5-4B5C-AFF9-A07601E93ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF66D90-50C5-4B5C-AFF9-A07601E93ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF66D90-50C5-4B5C-AFF9-A07601E93ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF66D90-50C5-4B5C-AFF9-A07601E93ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +67,7 @@ Global
 		{988436D9-0CB9-4B8A-96FB-9E06358A9015} = {C6799E4E-2F4D-4445-83D3-8DD747F76426}
 		{DC383583-07D7-4F28-94DA-56D5EEE88488} = {C6799E4E-2F4D-4445-83D3-8DD747F76426}
 		{E5616372-E3B0-4A32-8194-5E4DBF3A6CE7} = {C6799E4E-2F4D-4445-83D3-8DD747F76426}
+		{4FF66D90-50C5-4B5C-AFF9-A07601E93ADD} = {C6799E4E-2F4D-4445-83D3-8DD747F76426}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32DE0EA7-8EAE-44FA-986C-5A6CDB95F11B}
