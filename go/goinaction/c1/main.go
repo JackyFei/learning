@@ -35,8 +35,8 @@ func main() {
 func print(id string) {
 	defer wg.Done()
 
-	waitDuration := time.Duration(rand.Intn(5000)) * time.Millisecond
+	waitDuration := time.Duration(rand.Intn(5000))
 	log.Printf("%s is working", id)
-	time.Sleep(waitDuration)
-	log.Printf("%s is done and worked %d ms", id, waitDuration/time.Millisecond)
+	time.Sleep(waitDuration * time.Millisecond)
+	log.Printf("%s is done and worked %d ms", id, waitDuration)
 }
